@@ -1,0 +1,93 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+	font-size: 25px;
+	margin: 25px 0 15px 30px;
+}
+table{
+margin: 0 10px 30px 30px;
+width: 800px;
+}
+th{
+	text-align: center;
+	padding:5px 10px;
+}
+.swich{
+	width: 50px;
+}
+a{
+	color: black;
+}
+.new{
+	margin-left: 30px;
+}
+.text{
+	margin: 35px 20px 0 70px;
+}
+.text1{
+	margin-left: 50px;
+}
+.text2, .text1, .text, .flash{
+	font-size: 13px;
+}
+label {
+	display: block;
+}
+.flash{
+	margin: 30px 10px 0 70px;
+}
+.error{
+	backgrze: 14px;
+	background-color: #c00;
+}
+.errors{
+	background-color: #c00;
+	color: #fff;
+	font-size: 14px;
+	padding:7px 105px 5px 15px;
+	width: 200px;
+}
+.error-box{
+	border: 2px solid red;
+	padding-bottom: 40px;
+	width: 450px;
+	margin-bottom: 20px;
+	background-color: #f0f0f0;
+}
+.error-text{
+	font-size: 12px;
+	width: 200px;
+	/*padding:10px 10px 10px 0;*/
+	margin:0 0 0 70px;
+	text-align: left;
+}
+ul{
+	text-align: center;
+}
+li:first-child{
+margin-top: 30px;
+}
+.field_with_errors{
+display: table;
+padding: 2px;
+background-color: red;
+}
